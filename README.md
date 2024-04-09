@@ -8,7 +8,7 @@
 6. Mude para a branch `harry` usando o comando "switch" para trocar de branch.
 7. No arquivo `patronus.py`, adicione o seguinte:
 
-   ```python
+```python
 desenho = """
 HARRY'S PATRONUS
 
@@ -38,13 +38,13 @@ HARRY'S PATRONUS
           /_//_/           /_/   /_/
 """
 print(desenho)
-   ```
+```
 
 8. Adicione e comite as alterações, com a mensagem de commit "adicionar patrono de cervo de Harry".
 9. Mude para a branch `snape` usando o comando "checkout" para trocar de branch.
 10. Coloque o seguinte texto no arquivo `patronus.py`:
 
-    ```python
+```python
 desenho = """
 PATRONO DE SNAPE
                        .     _,
@@ -64,7 +64,7 @@ PATRONO DE SNAPE
          `"   `"      `""
 """
 print(desenho)
-    ```
+```
 
 11. Adicione e comite as alterações na branch `snape` com a mensagem de commit "adicionar patrono de doe de Snape".
 12. Em seguida, crie uma nova branch com base na branch `snape` chamada `lily`.
